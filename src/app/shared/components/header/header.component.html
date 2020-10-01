@@ -1,0 +1,40 @@
+<mat-toolbar>
+  <mat-toolbar-row>
+    <span style="margin-right: 20px;"> APP LOGO</span>
+    <mat-icon class="icon-btn" (click) = "toggleSideNav()">menu</mat-icon>
+    <input type="text"
+         placeholder="Search for a street"
+         [matAutocomplete]="auto">
+        <mat-autocomplete #auto="matAutocomplete">
+        <mat-option *ngFor="let street of filteredStreets | async" [value]="street">
+      {{street}}
+    </mat-option>
+  </mat-autocomplete>
+
+    <div fxFlex fxLayout = "row" fxLayoutAlign = "flex-end">
+      <ul fxLayout = "row" fxLayoutGap="20px">
+        <li>
+          <mat-icon class="icon-btn">settings</mat-icon>
+        </li>
+        <li>
+          <mat-icon class="icon-btn">help_outline</mat-icon>
+        </li>
+        <!-- <li>
+            <mat-icon class="icon-btn" [matMenuTriggerFor]="menu">person_outline</mat-icon>
+            <mat-menu #menu="matMenu">
+              <button mat-menu-item>
+                <mat-icon>exit_to_app</mat-icon>
+                Sign out
+              </button>
+            </mat-menu>
+        </li> -->
+      </ul>
+    </div>
+  </mat-toolbar-row>
+  <mat-toolbar-row class="toolbar-second-row">
+    <mat-tab-group>
+      <mat-tab label="Browse">   </mat-tab>
+      <mat-tab label="Second"></mat-tab>
+    </mat-tab-group>
+  </mat-toolbar-row>
+</mat-toolbar>

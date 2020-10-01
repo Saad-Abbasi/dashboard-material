@@ -1,0 +1,52 @@
+.example-icon {
+  padding: 0 14px;
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.icon-btn {
+  cursor: pointer;
+}
+ul li {
+  list-style: none;
+}
+
+
+
+
+:host ::ng-deep .mat-tab-label {
+  height: 2rem !important;
+  min-width: 2px!important;
+  font-weight: bold;
+  font-size: large;
+  padding: 5px;
+  
+}
+
+/* Styles for the active tab label */
+:host ::ng-deep .mat-tab-label.mat-tab-label-active {
+  border-bottom: 3px solid #5bc3b4;
+  color: #5bc3b4;
+  border-spacing: 15px;
+  box-sizing: border-box;
+  
+ 
+}
+
+/* Styles for the ink bar */
+:host ::ng-deep .mat-ink-bar {
+  display: none !important;
+}
+.toolbar-second-row{
+   
+    max-height: 30px;
+    min-height: 30px;
+    
+  
+}
+mat-toolbar{
+  
+  margin-bottom: 5px;
+ box-shadow:  5px 10px #ebe9e9;
+}
