@@ -11,12 +11,17 @@ mat-drawer {
 
 mat-drawer-container {
   height: 100%;
+  /* margin-left: 20px; */
 }
 
 mat-drawer-content {
-  padding: 0;
+  padding: 0px;
+  
 }
 
 mat-drawer-inner-container {
   overflow: hidden;
+}
+.section-right{
+  margin-left: 3rem;
 }

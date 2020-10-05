@@ -9,7 +9,7 @@
 .mat-list-item:hover,
 .mat-list-item.list-item-active{
   color: #fff;
-  background-color: #5bc3b4;
+  background-color: rgb(12 154 118);
   border-radius: 25px;
   width: auto;
 }

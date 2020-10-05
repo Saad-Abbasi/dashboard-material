@@ -1,6 +1,9 @@
 .example-icon {
   padding: 0 14px;
 }
+.logo{
+  margin-top: 6px;
+}
 .example-spacer {
   flex: 1 1 auto;
 }
@@ -11,9 +14,6 @@
 ul li {
   list-style: none;
 }
-
-
-
 
 :host ::ng-deep .mat-tab-label {
   height: 2rem !important;
@@ -42,11 +42,34 @@ ul li {
    
     max-height: 30px;
     min-height: 30px;
-    
-  
 }
 mat-toolbar{
   
   margin-bottom: 5px;
  box-shadow:  5px 10px #ebe9e9;
+}
+a {
+  text-decoration: none;
+  color: rgb(88, 82, 82);
+}
+a:hover, a:active{
+  color: rgb(3, 3, 3);
+  
+}
+.underLine{
+  border-bottom: 2px solid rgb(12 154 118);
+  color:rgb(12 154 118) ;
+}
+.navigation-items{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+mat-toolbar{
+  border-radius: 3px;
+}
+@media(max-width: 959px){
+  mat-toolbar{
+      border-radius: 0px;
+  }
 }

@@ -19,7 +19,7 @@ chartOptions2 = {};
         type: 'column'
       },
       title: {
-          text: 'Search Summary'
+          text: ''
       },
       subtitle: {
           text: ''
@@ -71,6 +71,47 @@ chartOptions2 = {};
   
 
 //2nd chart
+// this.chartOptions2 = {   
+//     chart : {
+//        plotBorderWidth: null,
+//        plotShadow: false
+//     },
+//     title : {
+//        text: ''   
+//     },
+//     tooltip : {
+//        pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+//     },
+//     plotOptions : {
+//        pie: {
+//           allowPointSelect: true,
+//           cursor: 'pointer',
+    
+//           dataLabels: {
+//              enabled: false           
+//           },
+    
+//           showInLegend: true
+//        }
+//     },
+//     series : [{
+//        type: 'pie',
+//        name: 'Browser share',
+//        data: [
+//           ['Firefox',   45.0],
+//           ['IE',       26.8],
+//           {
+//              name: 'Chrome',
+//              y: 12.8,
+//              sliced: true,
+//              selected: true
+//           },
+//           ['Safari',    8.5],
+//           ['Opera',     6.2],
+//           ['Others',      0.7]
+//        ]
+//     }]
+//  };
 this.chartOptions2 = {
     chart: {
       type: 'pie'

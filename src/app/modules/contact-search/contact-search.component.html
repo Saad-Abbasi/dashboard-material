@@ -91,12 +91,12 @@
             <mat-table [dataSource]="dataSource" class="mat-elevation-z8">
               <ng-container matColumnDef="imageUrl">
                 <th mat-header-cell *matHeaderCellDef> </th>
-                <td mat-cell *matCellDef="let element"> <img [src]="element.imageUrl" /> </td>
+                <td mat-cell *matCellDef="let element"> <img [src]="element.imageUrl"/></td>
               </ng-container>
 
               <!-- Position Column -->
-              <ng-container matColumnDef="contact">
-                <mat-header-cell *matHeaderCellDef> Contact. </mat-header-cell>
+              <ng-container matColumnDef="contact"> 
+                <mat-header-cell *matHeaderCellDef style="font-size: larger; font-weight: bold; text-align: center;"> Contact</mat-header-cell>
                 <mat-cell *matCellDef="let element"> {{element.contact}} </mat-cell>
               </ng-container>
 
@@ -133,7 +133,7 @@
       <div class="charts-statistics"   fxFlex="30" >
         <app-charts></app-charts>
         <div class="form-right-chart"> 
-            <h4 style="font-weight:bolder ; text-align: center;">Optimise your cost</h4>
+            <h4 style="font-weight:bolder ; text-align: center; margin-top: 5px;">Optimise your cost</h4>
           <form>
             <input type="text" id="fname" name="fname" value="Change Quantity"><br> <br>
             <input type="text" id="lname" name="lname" value="Basic"><br><br>
@@ -151,8 +151,8 @@
         </div>
         <div class="right-content">
           <div style="display: inline-block; ">
-           Rs: <span style="font-weight: bolder; color: #5bc3b4; font-size: larger;">18980</span>
-           <button  mat-flat-button style="margin-left:8px;  color:white; background-color:#5bc3b4 ; font-size: large;">Place Order</button>
+           Rs: <span style="font-weight: bolder; color: rgb(12 154 118); font-size: larger;">18980</span>
+           <button  mat-flat-button style="margin-left:8px;  color:white; background-color:rgb(12 154 118) ; font-size: large;">Place Order</button>
           </div>
           <div class="content-below">
            <small>

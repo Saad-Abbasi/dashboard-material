@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DefaultComponent implements OnInit {
   sidenavWidth = 210;
+  leftsidenavWidth = 55;
   constructor() { }
 
   ngOnInit(): void {

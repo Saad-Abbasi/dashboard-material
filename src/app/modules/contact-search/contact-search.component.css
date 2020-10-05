@@ -3,6 +3,7 @@
 ::ng-deep .mat-drawer {
   overflow: hidden !important;
 } */
+
 .mat-list-base {
   padding-top: 0;
 }
@@ -31,8 +32,8 @@ img {
 }
 
 .btnSaveFilters {
-  background-color: #5bc3b4;
-  border: 1px solid #5bc3b4;
+  background-color: rgb(12 154 118);
+  border: 1px solid rgb(12 154 118);
   color: #fff;
   border-radius: 30px;
 }
@@ -71,7 +72,7 @@ img {
   flex-direction: row;
   justify-content: flex-start;
   align-content: center;
-  margin-left: 10px;
+  margin-left: 12px;
   height: auto;
 }
 .btnSubHeader {
@@ -90,7 +91,7 @@ mat-list-option[aria-selected="true"],
 .mat-list-item:hover,
 .mat-list-item.list-item-active{
   color: #fff;
-  background-color: #5bc3b4;
+  background-color: rgb(12 154 118);
   border-radius: 30px;
 }
 
@@ -193,8 +194,8 @@ cursor: pointer;
 }
 
 .btn--green {
-background-color: #5bc3b4;
-border: 1px solid #5bc3b4;
+background-color: rgb(12 154 118);
+border: 1px solid rgb(12 154 118);
 color: #fff;
 }
 
@@ -236,4 +237,13 @@ h3 {
 }
 .content-below{
   margin-top: 5px;
+}
+mat-header-cell{
+  margin-left: 5px;
+  font-size: larger; 
+  font-weight: bold;
+  text-align: center;
+}
+.example-sidenav{
+  max-height: 550px;
 }

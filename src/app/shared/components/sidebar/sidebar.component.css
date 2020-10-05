@@ -30,6 +30,8 @@
   margin-left: 10px;
 }
 
-/* .mat-nav-list a.active {
-  background: blue;
-} */
+::ng-deep .mat-tooltip {
+ font-size: large;
+ /* font-weight: bold; */
+  background-color: rgb(12 154 118) !important;
+}
